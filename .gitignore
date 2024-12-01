@@ -1,0 +1,11 @@
+output
+node_modules
+local_test_files
+output
+txt
+docs
+.DS_Store
+protocols
+
+# p
+TODO.md

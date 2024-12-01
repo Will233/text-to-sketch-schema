@@ -1,0 +1,24 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "start",
+      "identifier": "text-to-design-plugin.start-identifier",
+      "script": "./my-command.js",
+      "handlers": {
+        "run": "onRun",
+        "actions": {
+          "Shutdown": "onShutdown"
+        }
+      }
+    }
+  ],
+  "menu": {
+    "title": "text-to-design-plugin",
+    "items": [
+      "text-to-design-plugin.start-identifier"
+    ]
+  },
+  "suppliesData": true
+}

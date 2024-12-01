@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+output
+node_modules
+local_test_files
+output
+txt
+docs
+.DS_Store
+protocols
+
+# p
+TODO.md
+=======
+# build artefacts
+text-to-design-plugin.sketchplugin
+
+# npm
+node_modules
+.npm
+npm-debug.log
+
+# mac
+.DS_Store
+
+# WebStorm
+.idea
+
+# sketch
+# sketch-assets
+>>>>>>> 955645f (feat: init)
